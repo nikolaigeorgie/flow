@@ -251,7 +251,7 @@ class Overlay:
             self.scale.v += 0.12          # little "bump" when the result lands
 
     def toast(self, text, on):
-        """Brief status pill, e.g. 'Vox84 is on' / 'Vox84 is off'."""
+        """Brief status pill, e.g. 'Flow is on' / 'Flow is off'."""
         self.toast_text, self.toast_on = text, on
         attrs = {NSFontAttributeName: NSFont.systemFontOfSize_weight_(13, 0.3)}
         self.toast_w = NSString.stringWithString_(text).sizeWithAttributes_(attrs).width + 62

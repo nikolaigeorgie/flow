@@ -1,4 +1,4 @@
-"""Draws Vox84's retro app icon (synthwave sunset + vintage chrome microphone) and menu bar glyphs."""
+"""Draws Flow's retro app icon (synthwave sunset + vintage chrome microphone) and menu bar glyphs."""
 import sys
 from pathlib import Path
 

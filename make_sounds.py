@@ -1,4 +1,4 @@
-"""Synthesizes Vox84's retro UI sounds (soft chiptune voice + echo) into assets/*.wav."""
+"""Synthesizes Flow's retro UI sounds (soft chiptune voice + echo) into assets/*.wav."""
 import wave
 from pathlib import Path
 
