@@ -20,10 +20,10 @@ if ! command -v uv >/dev/null 2>&1; then
 fi
 
 if [[ -d "$DIR/.git" ]]; then
-  say "Updating Vox84 in $DIR…"
+  say "Updating Vox84 in ${DIR}…"
   git -C "$DIR" pull --ff-only --quiet
 else
-  say "Downloading Vox84 to $DIR…"
+  say "Downloading Vox84 to ${DIR}…"
   git clone --quiet --depth 1 "$REPO" "$DIR"
 fi
 
