@@ -1,0 +1,12 @@
+# personal data - never commit
+*.log
+dictionary.txt
+settings.json
+.env*
+# build / env
+.venv/
+__pycache__/
+*.pyc
+*.iconset/
+*.icns
+.DS_Store

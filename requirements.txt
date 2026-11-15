@@ -1,0 +1,9 @@
+mlx==0.32.4
+mlx-audio==0.6.5
+mlx-lm==0.32.2
+numpy==2.5.4
+sounddevice==0.5.6
+rumps==0.4.0
+pyobjc-framework-Cocoa==13.0
+pyobjc-framework-Quartz==13.0
+pillow==13.0.0
