@@ -52,7 +52,7 @@ cat > "$APP/Contents/Info.plist" <<'P'
   <key>NSMicrophoneUsageDescription</key><string>Vox84 listens only while you're dictating. Audio never leaves your Mac.</string>
 </dict></plist>
 P
-codesign --force -s - "$APP"
+codesign --force -s - "$APP" 2>/dev/null
 
 if [[ "${1:-}" == "--login" ]]; then
   osascript -e 'tell application "System Events" to delete (every login item whose name is "Vox84")' >/dev/null 2>&1 || true
