@@ -10,3 +10,4 @@ __pycache__/
 *.iconset/
 *.icns
 .DS_Store
+.vercel/
